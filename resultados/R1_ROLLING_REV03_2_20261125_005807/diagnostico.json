@@ -1,0 +1,14 @@
+{
+  "bess_kwh": 3750.0,
+  "pcs_kw": 2062.5,
+  "pv_kwp": 1526.58,
+  "chp_modules": 15,
+  "daily_module_slots": 1382,
+  "windows": [],
+  "valid_incumbent": false,
+  "LP": {
+    "status": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "valid_incumbent": false
+  }
+}

@@ -1,0 +1,15 @@
+﻿categoria,fonte_monetaria,indice_status,valor_unitario_2026_documental,status_homologacao,fluxos_liberados,pendencia,risco_dupla_contagem
+fleet_purchase,ECO-009,DOCUMENTED,2849821.108794,PENDENTE,NAO,"Indice documentado, mas preco BEV 2038 e quantidade de compras ainda requerem homologacao",nenhum risco especifico identificado
+fleet_maintenance,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado
+fleet_replacement,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado
+charger_purchase,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,carregador versus instalacao
+charger_maintenance,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado
+charger_replacement,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado
+electrical_installation,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,carregador versus instalacao
+grid_connection,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado
+grid_reinforcement,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado
+grid_energy,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,energia/demanda/encargos
+grid_demand,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,energia/demanda/encargos
+grid_charges,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,energia/demanda/encargos
+system_opex,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado
+residual_credit,,NAO_APLICAVEL,,PENDENTE,NAO,Sem fonte de custo homologada para esta rubrica,nenhum risco especifico identificado

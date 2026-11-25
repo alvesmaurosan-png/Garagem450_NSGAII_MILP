@@ -1,0 +1,11 @@
+﻿id,parametro,valor_fonte,unidade,status_fonte,origem,pesquisa,observacao,data_base,aplicacao_bau,valor_brl_2026,tratamento
+D03-001,Frota total sintética,450,ônibus,Premissa do exercício,Protocolo REV02,nan,450 ônibus: hipótese definida no exercício.,NAO_APLICAVEL,SIM,,PREMISSA_NAO_MONETARIA
+D05-001,PCC importação máxima,2500,kW,Premissa do exercício,Protocolo REV02,nan,2.500 kW apenas R0/R1/R2; BAU ampliável com custo.,NAO_APLICAVEL,NAO,,FORA_DA_FRONTEIRA_BAU
+ECO-001,Taxa real de desconto,0.08,fração/ano,Premissa adotada,Pesquisa REV01,P20,Taxa real de desconto; análise de sensibilidade,NAO_APLICAVEL,SIM,,PREMISSA_NAO_MONETARIA
+ECO-002,Horizonte econômico,20,anos,Premissa adotada,Pesquisa REV01,P21,20 fluxos anuais; 2038–2057,NAO_APLICAVEL,SIM,,PREMISSA_NAO_MONETARIA
+ECO-003,Ano de implantação,2038,ano,Premissa adotada,Protocolo REV02,nan,Ano de implantação do exercício,NAO_APLICAVEL,SIM,,PREMISSA_NAO_MONETARIA
+ECO-004,Ano-base monetário,2026,ano,Premissa adotada,Protocolo REV02,nan,R$ constantes de 2026,NAO_APLICAVEL,SIM,,PREMISSA_NAO_MONETARIA
+ECO-005,Primeiro fluxo operacional,2038,ano,Premissa adotada,Protocolo REV02,nan,Primeiro fluxo no fim de 2038,NAO_APLICAVEL,SIM,,PREMISSA_NAO_MONETARIA
+ECO-006,Data de referência VP,início de 2038,nan,Premissa adotada,Protocolo REV02,nan,Referência temporal t=0,NAO_APLICAVEL,SIM,,PREMISSA_NAO_MONETARIA
+ECO-009,CAPEX ônibus BEV,2799076.42,R$/ônibus,Documentado — converter ano-base,Pesquisa REV01,P02,"Padron; preço mai/2025, NÃO em R$2026",MAIO_2025,SIM,,CONVERSAO_PENDENTE
+OPS-003,Consumo ônibus GAS-BUS,0.6,Nm³/km,Referência técnica — validar,Pesquisa REV01,P08,m³/km; verificar base volumétrica e tipo de ônibus,NAO_APLICAVEL,NAO,,FORA_DA_FRONTEIRA_BAU

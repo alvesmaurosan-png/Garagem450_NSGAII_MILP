@@ -1,0 +1,15 @@
+﻿prioridade,categoria,pendencia,status
+P1,fleet_purchase,IPCA maio/2025 e janeiro/2026 documentados e aprovados; elegibilidade BEV 2038,PENDENTE
+P2,fleet_maintenance,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,fleet_replacement,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,charger_purchase,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,charger_maintenance,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,charger_replacement,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,electrical_installation,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P1,grid_connection,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P1,grid_reinforcement,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P1,grid_energy,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P1,grid_demand,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,grid_charges,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,system_opex,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE
+P2,residual_credit,"Fonte, unidade, regra de incidencia e validacao especifica",PENDENTE

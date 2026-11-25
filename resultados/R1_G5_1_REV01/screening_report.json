@@ -1,0 +1,192 @@
+{
+  "status": "SCREENING_ONLY",
+  "annual_feasibility_certified": false,
+  "calendar": "synthetic local cyclic rotation of 3 hours",
+  "pv_kwp": 1625.964844738918,
+  "traction_dc_kwh_day": 83386.664546266,
+  "demand_ac_kwh_day": 85727.01197313251,
+  "pv_annual_kwh": 2170890.5221419586,
+  "pv_daily_min_kwh": 686.843682969823,
+  "pv_daily_mean_kwh": 5947.64526614235,
+  "pv_daily_max_kwh": 11238.84966959593,
+  "source_status_counts": {
+    "observado": 4699,
+    "estimado_hora_anual": 2585,
+    "estimado_mes_hora": 1476
+  },
+  "scenarios": {
+    "100": {
+      "critical_days": 14,
+      "sum_daily_deficits_kwh": 6720.083183168899,
+      "max_daily_deficit_kwh": 1100.1682901626918,
+      "longest_cyclic_run_days": 3,
+      "worst_runs": [
+        {
+          "start": "2025-07-01",
+          "end": "2025-07-03",
+          "days": 3,
+          "deficit_kwh": 2694.3451763693884
+        },
+        {
+          "start": "2025-10-28",
+          "end": "2025-10-28",
+          "days": 1,
+          "deficit_kwh": 919.3429331516672
+        },
+        {
+          "start": "2025-05-11",
+          "end": "2025-05-11",
+          "days": 1,
+          "deficit_kwh": 662.024963333708
+        },
+        {
+          "start": "2025-06-09",
+          "end": "2025-06-09",
+          "days": 1,
+          "deficit_kwh": 660.2002694523835
+        },
+        {
+          "start": "2025-06-06",
+          "end": "2025-06-06",
+          "days": 1,
+          "deficit_kwh": 457.55085096976836
+        },
+        {
+          "start": "2025-07-25",
+          "end": "2025-07-25",
+          "days": 1,
+          "deficit_kwh": 353.56136601067556
+        },
+        {
+          "start": "2025-09-22",
+          "end": "2025-09-22",
+          "days": 1,
+          "deficit_kwh": 248.95762766580447
+        },
+        {
+          "start": "2025-09-24",
+          "end": "2025-09-24",
+          "days": 1,
+          "deficit_kwh": 243.71840761054773
+        },
+        {
+          "start": "2025-10-10",
+          "end": "2025-10-10",
+          "days": 1,
+          "deficit_kwh": 179.45666369124956
+        },
+        {
+          "start": "2025-04-25",
+          "end": "2025-04-25",
+          "days": 1,
+          "deficit_kwh": 124.82424490802805
+        }
+      ],
+      "annual_energy_margin_kwh": 1518631.1519485912
+    },
+    "96": {
+      "critical_days": 41,
+      "sum_daily_deficits_kwh": 30638.563867377045,
+      "max_daily_deficit_kwh": 2057.7682901626977,
+      "longest_cyclic_run_days": 4,
+      "worst_runs": [
+        {
+          "start": "2025-07-01",
+          "end": "2025-07-03",
+          "days": 3,
+          "deficit_kwh": 5567.145176369406
+        },
+        {
+          "start": "2025-10-07",
+          "end": "2025-10-10",
+          "days": 4,
+          "deficit_kwh": 3316.6486162555375
+        },
+        {
+          "start": "2025-10-27",
+          "end": "2025-10-28",
+          "days": 2,
+          "deficit_kwh": 2793.265836031598
+        },
+        {
+          "start": "2025-06-08",
+          "end": "2025-06-11",
+          "days": 4,
+          "deficit_kwh": 2456.6396773210145
+        },
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-11",
+          "days": 2,
+          "deficit_kwh": 2160.1331917663047
+        },
+        {
+          "start": "2025-09-24",
+          "end": "2025-09-25",
+          "days": 2,
+          "deficit_kwh": 1847.5685497793456
+        },
+        {
+          "start": "2025-06-06",
+          "end": "2025-06-06",
+          "days": 1,
+          "deficit_kwh": 1415.1508509697742
+        },
+        {
+          "start": "2025-07-25",
+          "end": "2025-07-25",
+          "days": 1,
+          "deficit_kwh": 1311.1613660106814
+        },
+        {
+          "start": "2025-09-22",
+          "end": "2025-09-22",
+          "days": 1,
+          "deficit_kwh": 1206.5576276658103
+        },
+        {
+          "start": "2025-04-25",
+          "end": "2025-04-25",
+          "days": 1,
+          "deficit_kwh": 1082.4242449080339
+        }
+      ],
+      "annual_energy_margin_kwh": 1169107.1519485894
+    },
+    "50": {
+      "critical_days": 365,
+      "sum_daily_deficits_kwh": 2850418.8480514083,
+      "max_daily_deficit_kwh": 13070.168290162692,
+      "longest_cyclic_run_days": 365,
+      "worst_runs": [
+        {
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "days": 365,
+          "deficit_kwh": 2850418.8480514083
+        }
+      ],
+      "annual_energy_margin_kwh": -2850418.8480514083
+    },
+    "0": {
+      "critical_days": 365,
+      "sum_daily_deficits_kwh": 7219468.848051408,
+      "max_daily_deficit_kwh": 25040.168290162692,
+      "longest_cyclic_run_days": 365,
+      "worst_runs": [
+        {
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "days": 365,
+          "deficit_kwh": 7219468.848051408
+        }
+      ],
+      "annual_energy_margin_kwh": -7219468.848051408
+    }
+  },
+  "limitations": [
+    "Daily deficits assume zero net storage transfer including vehicle batteries and gas storage.",
+    "CHP fractions are energy sensitivity assumptions, not outage schedules or universal bounds.",
+    "No temporal MILP or physical biomass validation."
+  ]
+}

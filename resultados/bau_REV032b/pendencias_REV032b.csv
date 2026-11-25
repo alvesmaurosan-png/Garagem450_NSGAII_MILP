@@ -1,0 +1,15 @@
+﻿categoria,tipo,detalhe
+fleet_purchase,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+fleet_maintenance,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+fleet_replacement,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+charger_purchase,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+charger_maintenance,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+charger_replacement,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+electrical_installation,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+grid_connection,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+grid_reinforcement,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+grid_energy,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+grid_demand,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+grid_charges,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+system_opex,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado
+residual_credit,PARAMETRO,Regra/fonte/justificativa/ano-base 2026 ausente ou nao validado

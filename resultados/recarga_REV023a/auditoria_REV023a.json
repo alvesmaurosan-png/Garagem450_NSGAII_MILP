@@ -1,0 +1,144 @@
+{
+  "generator": "REV023a_FIXED_PORT_FEASIBILITY_SEARCH",
+  "lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "lp_peak_dc_kw": 3474.444356041667,
+  "n_vehicles": 450,
+  "slots": 96,
+  "eligible_vehicle_slots": 31022,
+  "service_total_km": 67794.03622800001,
+  "service_total_pkm": 1559262.83308,
+  "input_sha256": {
+    "veiculos_servico_24h_REV02.csv": "03fe246444ede581a0e3f4f142069f6df9f538f84ece2e3405866fcb8e836da0",
+    "blocos_servico_24h_REV02.csv": "41974b68d7ca60b31d55923c4c16a35754badc89cd9eb7a58c9e0ef77f01ba69"
+  },
+  "assumptions": {
+    "step_min": 15,
+    "port_kw_dc": 138.0,
+    "battery_kwh": 350.0,
+    "soc_min": 0.15,
+    "soc_max": 0.9,
+    "eta": 1.0,
+    "turnaround_min": 10.0,
+    "no_pv_bess_chp_pcc": true,
+    "charging_only_full_slots": true
+  },
+  "lp_audit": {
+    "valid": true,
+    "violations": [],
+    "peak_dc_kw": 3474.444356041681,
+    "ports_from_positive_lp": 32,
+    "soc_min": 0.1499999999999981,
+    "soc_max": 0.7825471542857143,
+    "max_energy_residual_kwh": 7.105427357601002e-13,
+    "max_periodic_soc_residual": 2.0261570199409107e-15,
+    "daily_dc_kwh": 83386.664545
+  },
+  "peak": {
+    "lower_bound_ports": 26,
+    "upper_bound_ports": 29,
+    "minimum_certified": false,
+    "classification": "BEST_KNOWN_WITH_OPEN_GAP",
+    "lp_constructive_upper_ports": 32,
+    "lp_constructive_audit": {
+      "valid": true,
+      "violations": [],
+      "peak_dc_kw": 3474.444356041681,
+      "ports_from_positive_lp": 32,
+      "soc_min": 0.1499999999999981,
+      "soc_max": 0.7825471542857143,
+      "max_energy_residual_kwh": 7.105427357601002e-13,
+      "max_periodic_soc_residual": 2.0261570199409107e-15,
+      "daily_dc_kwh": 83386.664545
+    },
+    "tests": [
+      {
+        "ports_tested": 29,
+        "status_code": 0,
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_seconds": 8.236,
+        "peak_cap_dc_kw": 3649.444356041667,
+        "mip_gap": 0.0,
+        "audit": {
+          "valid": true,
+          "violations": [],
+          "peak_dc_kw": 3649.444356041667,
+          "ports_from_positive_lp": 29,
+          "soc_min": 0.1499999999999993,
+          "soc_max": 0.9000000000000001,
+          "max_energy_residual_kwh": 1.4210854715202004e-13,
+          "max_periodic_soc_residual": 6.938893903907228e-16,
+          "daily_dc_kwh": 83386.664545
+        },
+        "classification": "FEASIBLE_CERTIFIED_BY_AUDIT"
+      },
+      {
+        "ports_tested": 27,
+        "status_code": 1,
+        "solver_message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+        "elapsed_seconds": 65.989,
+        "peak_cap_dc_kw": 3649.444356041667,
+        "mip_gap": null,
+        "classification": "INCONCLUSIVE"
+      }
+    ],
+    "inconclusive_ports": [
+      27
+    ],
+    "note": "Certificacao relativa ao modelo discretizado de 15 min e ao regime de pico especificado",
+    "peak_cap_dc_kw": 3649.444356041667
+  },
+  "free": {
+    "lower_bound_ports": 26,
+    "upper_bound_ports": 29,
+    "minimum_certified": false,
+    "classification": "BEST_KNOWN_WITH_OPEN_GAP",
+    "lp_constructive_upper_ports": 32,
+    "lp_constructive_audit": {
+      "valid": true,
+      "violations": [],
+      "peak_dc_kw": 3474.444356041681,
+      "ports_from_positive_lp": 32,
+      "soc_min": 0.1499999999999981,
+      "soc_max": 0.7825471542857143,
+      "max_energy_residual_kwh": 7.105427357601002e-13,
+      "max_periodic_soc_residual": 2.0261570199409107e-15,
+      "daily_dc_kwh": 83386.664545
+    },
+    "tests": [
+      {
+        "ports_tested": 29,
+        "status_code": 0,
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "elapsed_seconds": 8.205,
+        "peak_cap_dc_kw": null,
+        "mip_gap": 0.0,
+        "audit": {
+          "valid": true,
+          "violations": [],
+          "peak_dc_kw": 3985.2135200000007,
+          "ports_from_positive_lp": 29,
+          "soc_min": 0.14999999999999938,
+          "soc_max": 0.9000000000000001,
+          "max_energy_residual_kwh": 1.4210854715202004e-13,
+          "max_periodic_soc_residual": 6.106226635438361e-16,
+          "daily_dc_kwh": 83386.664545
+        },
+        "classification": "FEASIBLE_CERTIFIED_BY_AUDIT"
+      },
+      {
+        "ports_tested": 27,
+        "status_code": 1,
+        "solver_message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+        "elapsed_seconds": 78.023,
+        "peak_cap_dc_kw": null,
+        "mip_gap": null,
+        "classification": "INCONCLUSIVE"
+      }
+    ],
+    "inconclusive_ports": [
+      27
+    ],
+    "note": "Certificacao relativa ao modelo discretizado de 15 min e ao regime de pico especificado",
+    "peak_cap_dc_kw": null
+  }
+}

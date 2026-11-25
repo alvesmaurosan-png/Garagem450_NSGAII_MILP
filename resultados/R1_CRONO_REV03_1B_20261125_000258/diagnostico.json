@@ -1,0 +1,31 @@
+{
+  "bess_kwh": 60000.0,
+  "pcs_kw": 15000,
+  "pv_kwp": 1526.58,
+  "chp_modules": 15,
+  "pcc_kw": 2500,
+  "gas_nm3h": 1500,
+  "demand_kwh": 31290359.37019337,
+  "pv_available_kwh": 2038197.8515799996,
+  "natureza": "ANO SOLAR SINTETICO, DIA G4 REPETIDO; SEM CERTIFICACAO REAL",
+  "runs": [
+    {
+      "model": "FIXED_1",
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "valid_incumbent": false
+    },
+    {
+      "model": "FIXED_2",
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "valid_incumbent": false
+    },
+    {
+      "model": "FIXED_3",
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "valid_incumbent": false
+    }
+  ]
+}

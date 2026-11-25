@@ -1,0 +1,15 @@
+﻿categoria,regra,status_origem,fonte,ano_base,elegivel_documental,habilitado_para_F1,tratamento,risco_dupla_contagem
+fleet_purchase,initial_unit,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+fleet_maintenance,annual_unit,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+fleet_replacement,replacement_unit,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+charger_purchase,initial_unit,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,carregador versus instalacao
+charger_maintenance,annual_unit,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+charger_replacement,replacement_unit,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+electrical_installation,initial_fixed,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,carregador versus instalacao
+grid_connection,initial_fixed,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+grid_reinforcement,initial_fixed,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+grid_energy,annual_energy,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,energia/demanda/encargos
+grid_demand,annual_demand,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,energia/demanda/encargos
+grid_charges,annual_fixed,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,energia/demanda/encargos
+system_opex,annual_fixed,PENDING,,,NAO,NAO,CUSTO_ADICIONAR,nenhum risco especifico identificado
+residual_credit,residual_fraction,PENDING,,,NAO,NAO,CREDITO_SUBTRAIR,nenhum risco especifico identificado

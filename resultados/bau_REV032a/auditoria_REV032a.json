@@ -1,0 +1,30 @@
+{
+  "generator": "REV032a_ECONOMIC_AUDIT_ONLY",
+  "classification": "SYNTHETIC_EXPLORATORY",
+  "input_hashes": {
+    "master_xlsx": "26518a14bc9b53af59d43487abb451ca0bee79f65ae9667a252b28d779fe1f2d"
+  },
+  "master_active_records": 10,
+  "first_operational_year": 2038,
+  "last_operational_year": 2057,
+  "reference_t0": "INICIO_2038",
+  "operating_flows": "FIM_DE_CADA_ANO_2038_2057",
+  "currency_base": "BRL_CONSTANT_2026",
+  "real_discount_rate": 0.08,
+  "bau_grid_expandable": true,
+  "pcc_2500_applied_to_bau": false,
+  "frozen_physical_results_modified": false,
+  "cost_rows": 294,
+  "pending_cost_rows": 294,
+  "economic_status": "BLOCKED_MISSING_OR_UNVALIDATED_COSTS",
+  "F1_brl_per_pkm": null,
+  "LCOE_brl_per_kwh": null,
+  "BAU_final_approved": false,
+  "cautions": [
+    "CAPEX ECO-009 em R$ mai/2025 nao convertido para R$2026",
+    "Zero requer justificativa; nao preencher automaticamente",
+    "Nenhuma rubrica e importada automaticamente da Base Mestre",
+    "Conexao existente e demanda contratada pendentes; reforco nao precificado",
+    "F1/LCOE nao calculados, mesmo que JSON tenha valores sem proveniencia"
+  ]
+}

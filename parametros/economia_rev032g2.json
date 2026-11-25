@@ -1,0 +1,188 @@
+{
+  "revision": "REV03.2g.2",
+  "status": "INFRASTRUCTURE_SCOPE_RECONCILED_COST_PENDING",
+  "scenario": "BAU_SYNTHETIC_SINGLE_REFERENCE",
+  "sensitivity_analysis": false,
+  "fleet_maintenance_revision": "REV03.2f_FROZEN",
+  "physical_reference": {
+    "vehicles": 450,
+    "chargers": 29,
+    "charger_power_kw": 138,
+    "transformer_kva": 6000,
+    "planned_connection_kw": 4225.67
+  },
+  "economic_convention": {
+    "start_year": 2038,
+    "end_year": 2057,
+    "real_discount_rate": 0.08,
+    "capital_cost_time": "t0",
+    "general_price_base": "2026-01_BRL",
+    "tariff_reference_date": "2026-07",
+    "tariff_constant_reference": true,
+    "tariff_price_base_exception": true
+  },
+  "electricity": {
+    "distributor": "Enel Distribuicao Sao Paulo",
+    "subgroup": "A4",
+    "modality": "HORARIA_AZUL",
+    "source": "ANEEL_REH_3596_2026",
+    "source_url": "https://www.enel.com.br/pt-saopaulo/Corporativo_e_Governo/tabela-de-tarifas.html",
+    "tariffs": {
+      "te_peak_brl_kwh": 0.48242,
+      "te_offpeak_brl_kwh": 0.30188,
+      "tusd_energy_peak_brl_kwh": 0.15062,
+      "tusd_energy_offpeak_brl_kwh": 0.15062,
+      "demand_peak_brl_kw_month": 31.75,
+      "demand_offpeak_brl_kw_month": 19.04
+    },
+    "taxes": "EXCLUDED_FROM_REFERENCE",
+    "tariff_flag": "GREEN_ASSUMED",
+    "peak_calendar": "PENDING_CALENDAR_MAPPING",
+    "monthly_billing_series": null,
+    "annual_grid_bill_brl": null
+  },
+  "infrastructure": {
+    "charger_purchase": {
+      "value_brl": 6566964.45,
+      "unit_reference_brl": 226447.05,
+      "unit_reference_power_kw": 150,
+      "installed_power_kw": 138,
+      "source": "Base_Mestre_REV02_P09",
+      "status": "EXPLORATORY_TECHNICAL_EQUIVALENCE_PENDING"
+    },
+    "electrical_installation": {
+      "value_brl": null,
+      "scope": [
+        "transformers_internal_6000_kva_reference",
+        "medium_voltage_switchgear",
+        "low_voltage_distribution",
+        "protection_and_metering_internal",
+        "cabling_and_civil_works_internal"
+      ],
+      "excluded": [
+        "charger_purchase",
+        "external_grid_works"
+      ],
+      "status": "PENDING_SYNTHETIC_COST"
+    },
+    "grid_connection": {
+      "value_brl": null,
+      "scope": [
+        "consumer_attributable_connection_works",
+        "connection_point_and_interface",
+        "connection_specific_metering_if_chargeable"
+      ],
+      "excluded": [
+        "internal_installation",
+        "grid_reinforcement"
+      ],
+      "regulatory_basis": "ANEEL_REN_1000_2021",
+      "status": "PENDING_SYNTHETIC_COST"
+    },
+    "grid_reinforcement": {
+      "value_brl": null,
+      "scope": [
+        "consumer_financial_participation_in_external_works"
+      ],
+      "rule": "Only the amount attributable to the consumer; do not assume full network reinforcement cost.",
+      "technical_need": "NOT_DEMONSTRATED",
+      "status": "PENDING_SYNTHETIC_COST"
+    },
+    "charger_replacement": {
+      "value_brl": null,
+      "status": "PENDING_LIFETIME"
+    },
+    "charger_maintenance": {
+      "value_brl_year": null,
+      "status": "PENDING_NO_DOUBLE_COUNT"
+    },
+    "system_opex": {
+      "value_brl_year": null,
+      "status": "PENDING_NO_DOUBLE_COUNT"
+    }
+  },
+  "annual_cashflows": {
+    "years": [
+      2038,
+      2039,
+      2040,
+      2041,
+      2042,
+      2043,
+      2044,
+      2045,
+      2046,
+      2047,
+      2048,
+      2049,
+      2050,
+      2051,
+      2052,
+      2053,
+      2054,
+      2055,
+      2056,
+      2057
+    ],
+    "total_cost_brl": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "pkm": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "economic_gates": {
+    "all_categories_reconciled": false,
+    "F1_brl_per_pkm": null,
+    "LCOE_brl_per_kwh": null,
+    "BAU_final_approved": false,
+    "NSGAII_MILP_economic_release": false
+  },
+  "infrastructure_accounting": {
+    "charger_purchase_brl": 6566964.45,
+    "charger_purchase_status": "EXPLORATORY",
+    "electrical_installation_brl": null,
+    "grid_connection_brl": null,
+    "grid_reinforcement_brl": null,
+    "total_infrastructure_brl": null,
+    "no_double_count": true
+  }
+}

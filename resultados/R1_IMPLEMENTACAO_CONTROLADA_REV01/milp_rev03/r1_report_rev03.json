@@ -1,0 +1,23 @@
+{
+  "status": "LIMIT_REACHED",
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "vehicles": 450,
+  "slots": 96,
+  "service_traction_kwh": 83386.664546266,
+  "eligible_vehicle_slots": 31022,
+  "variables": 106300,
+  "constraints": 75087,
+  "pcc_limit_kw": 2500.0,
+  "ports": 160,
+  "chp_modules": 30,
+  "substrate_t_day": 120.0,
+  "scope": "SYNTHETIC_PERIODIC_DAY_ONLY",
+  "annual_feasibility_certified": false,
+  "caveats": [
+    "PV, BESS, CHP, substrato e portas sao hipoteses de ensaio ate validacao de limites fisicos",
+    "SOC e balanços verificados nos limites de slots; eventos intrasslot requerem auditoria posterior",
+    "Disponibilidade anual de CHP de 96% nao implementada",
+    "Potencia CHP modular inteira, sem minimo de tempo ligado/desligado",
+    "O objetivo minimiza importacao diaria; nao e F1 economica nem fronteira de Pareto"
+  ]
+}

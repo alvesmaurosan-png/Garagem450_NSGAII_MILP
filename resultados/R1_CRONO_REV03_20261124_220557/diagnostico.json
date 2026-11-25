@@ -1,0 +1,33 @@
+{
+  "bess_kwh": 60000.0,
+  "pcs_kw": 15000,
+  "pv_kwp": 1526.58,
+  "chp_modules": 15,
+  "pcc_kw": 2500,
+  "gas_nm3h": 1500,
+  "demand_kwh": 31290359.37019337,
+  "pv_available_kwh": 2038197.8515799996,
+  "natureza": "ANO SOLAR SINTETICO, DIA G4 REPETIDO; SEM CERTIFICACAO REAL",
+  "runs": [
+    {
+      "model": "LP",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "grid_kwh": 20418936.67509225,
+      "peak_kw": 2500.0,
+      "pv_kwh": 2038197.8515799996,
+      "chp_net_kwh": 8987760.0,
+      "substrate_t": 45051.428571428565,
+      "soc_min_kwh": 6000.0,
+      "soc_max_kwh": 30132.626010462423
+    },
+    {
+      "model": "MILP",
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "valid_incumbent": false
+    }
+  ]
+}

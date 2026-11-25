@@ -1,0 +1,1125 @@
+{
+  "bess_kwh": 30000.0,
+  "pcs_kw": 15000,
+  "pv_kwp": 1526.58,
+  "chp_modules": 15,
+  "daily_module_slots": 1382,
+  "windows": [
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 7.275957614183426e-12,
+      "start_day": 1,
+      "end_day": 7,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 1.1720174643749718e-10,
+      "start_day": 4,
+      "end_day": 10,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 7,
+      "end_day": 13,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 10,
+      "end_day": 16,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 13,
+      "end_day": 19,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 16,
+      "end_day": 22,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 19,
+      "end_day": 25,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 22,
+      "end_day": 28,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 25,
+      "end_day": 31,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 28,
+      "end_day": 34,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 31,
+      "end_day": 37,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 34,
+      "end_day": 40,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 37,
+      "end_day": 43,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 40,
+      "end_day": 46,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 43,
+      "end_day": 49,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 46,
+      "end_day": 52,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 49,
+      "end_day": 55,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 52,
+      "end_day": 58,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.092726157978177e-12,
+      "start_day": 55,
+      "end_day": 61,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.092726157978177e-12,
+      "start_day": 58,
+      "end_day": 64,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 61,
+      "end_day": 67,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 64,
+      "end_day": 70,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 67,
+      "end_day": 73,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 70,
+      "end_day": 76,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 73,
+      "end_day": 79,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 76,
+      "end_day": 82,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 79,
+      "end_day": 85,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.092726157978177e-12,
+      "start_day": 82,
+      "end_day": 88,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 85,
+      "end_day": 91,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 88,
+      "end_day": 94,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 5.4569682106375694e-12,
+      "start_day": 91,
+      "end_day": 97,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 94,
+      "end_day": 100,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 97,
+      "end_day": 103,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 100,
+      "end_day": 106,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 103,
+      "end_day": 109,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.092726157978177e-12,
+      "start_day": 106,
+      "end_day": 112,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 109,
+      "end_day": 115,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 1.4551915228366852e-11,
+      "start_day": 112,
+      "end_day": 118,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 1.2392560791128391e-09,
+      "start_day": 115,
+      "end_day": 121,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 118,
+      "end_day": 124,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 121,
+      "end_day": 127,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 124,
+      "end_day": 130,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 5.4569682106375694e-12,
+      "start_day": 127,
+      "end_day": 133,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 130,
+      "end_day": 136,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 133,
+      "end_day": 139,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 136,
+      "end_day": 142,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 139,
+      "end_day": 145,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.092726157978177e-12,
+      "start_day": 142,
+      "end_day": 148,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 145,
+      "end_day": 151,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 148,
+      "end_day": 154,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 151,
+      "end_day": 157,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 154,
+      "end_day": 160,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 157,
+      "end_day": 163,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 160,
+      "end_day": 166,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 163,
+      "end_day": 169,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 166,
+      "end_day": 172,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 169,
+      "end_day": 175,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 172,
+      "end_day": 178,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 175,
+      "end_day": 181,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 178,
+      "end_day": 184,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 181,
+      "end_day": 187,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 6.990301161171597e-10,
+      "start_day": 184,
+      "end_day": 190,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 187,
+      "end_day": 193,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 190,
+      "end_day": 196,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 193,
+      "end_day": 199,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 196,
+      "end_day": 202,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 199,
+      "end_day": 205,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 202,
+      "end_day": 208,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 205,
+      "end_day": 211,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 208,
+      "end_day": 214,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 211,
+      "end_day": 217,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 214,
+      "end_day": 220,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 217,
+      "end_day": 223,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 220,
+      "end_day": 226,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 223,
+      "end_day": 229,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 226,
+      "end_day": 232,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 229,
+      "end_day": 235,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 2.7284841053187847e-12,
+      "start_day": 232,
+      "end_day": 238,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 235,
+      "end_day": 241,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 238,
+      "end_day": 244,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 241,
+      "end_day": 247,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 5.4569682106375694e-12,
+      "start_day": 244,
+      "end_day": 250,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 247,
+      "end_day": 253,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 2.7284841053187847e-12,
+      "start_day": 250,
+      "end_day": 256,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 253,
+      "end_day": 259,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 256,
+      "end_day": 262,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 5.123396314851987e-10,
+      "start_day": 259,
+      "end_day": 265,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 7.275957614183426e-12,
+      "start_day": 262,
+      "end_day": 268,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.092726157978177e-12,
+      "start_day": 265,
+      "end_day": 271,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 2.7284841053187847e-12,
+      "start_day": 268,
+      "end_day": 274,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 5.4569682106375694e-12,
+      "start_day": 271,
+      "end_day": 277,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 274,
+      "end_day": 280,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 277,
+      "end_day": 283,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.5035738316426976e-10,
+      "start_day": 280,
+      "end_day": 286,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 283,
+      "end_day": 289,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 286,
+      "end_day": 292,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 289,
+      "end_day": 295,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 292,
+      "end_day": 298,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 8.185452315956354e-12,
+      "start_day": 295,
+      "end_day": 301,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 298,
+      "end_day": 304,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 1.624070447869582e-10,
+      "start_day": 301,
+      "end_day": 307,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 304,
+      "end_day": 310,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 307,
+      "end_day": 313,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 5.002220859751105e-12,
+      "start_day": 310,
+      "end_day": 316,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 313,
+      "end_day": 319,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 316,
+      "end_day": 322,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 319,
+      "end_day": 325,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 322,
+      "end_day": 328,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 325,
+      "end_day": 331,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 328,
+      "end_day": 334,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 331,
+      "end_day": 337,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 334,
+      "end_day": 340,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 337,
+      "end_day": 343,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 340,
+      "end_day": 346,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 343,
+      "end_day": 349,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.092726157978177e-12,
+      "start_day": 346,
+      "end_day": 352,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 349,
+      "end_day": 355,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 4.547473508864641e-12,
+      "start_day": 352,
+      "end_day": 358,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 3.637978807091713e-12,
+      "start_day": 355,
+      "end_day": 361,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 6.821210263296962e-12,
+      "start_day": 358,
+      "end_day": 364,
+      "committed_days": 3
+    },
+    {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "valid_incumbent": true,
+      "max_violation": 8.216278435003687e-10,
+      "start_day": 361,
+      "end_day": 365,
+      "committed_days": 5
+    }
+  ],
+  "valid_incumbent": true,
+  "LP": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "valid_incumbent": true,
+    "max_violation": 9.094947017729282e-13
+  },
+  "errors": {
+    "power_balance": 9.094947017729282e-12,
+    "bess_balance": 3.5227376571356217e-12,
+    "gas_balance": 1.1368683772161603e-12,
+    "bounds": 1.4551915228366852e-11,
+    "integer": 1.0981978347266445e-13,
+    "bess_mode": 8.216278435003687e-10,
+    "chp_limits": 4.547473508864641e-12,
+    "availability": 0.0,
+    "annual_closure": 0.0
+  },
+  "grid_kwh": 20540602.028416403,
+  "peak_kw": 2500.0000000000146,
+  "pv_kwh": 2038137.8350251731,
+  "chp_net_kwh": 8884037.530203959,
+  "substrate_t": 44531.51644212511,
+  "soc_min_kwh": 2999.999999999999,
+  "soc_max_kwh": 15231.282052692395,
+  "demand_kwh": 31290359.37019337,
+  "conclusion": "FACTIVEL_ANUAL_SINTETICO"
+}

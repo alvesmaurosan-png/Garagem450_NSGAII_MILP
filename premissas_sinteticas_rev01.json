@@ -1,0 +1,37 @@
+{
+  "natureza": "SINTETICA_EXPLORATORIA_NAO_HOMOLOGADA",
+  "moeda": "BRL constantes jan/2026 (hipotese de harmonizacao para todos os valores)",
+  "horizonte_anos": 20,
+  "taxa_real": 0.08,
+  "pkm_anual_requisito": 569130934.0742,
+  "n_bev": 100,
+  "n_diesel": 350,
+  "referencia_pv_kwp": 1625.964844738918,
+  "referencia_bess_kwh": 37809.85181744359,
+  "referencia_pcs_kw": 11194.41487733462,
+  "capex_pv_bess_pcs_carregadores_referencia_brl": 91635821.544722,
+  "custo_marginal_pv_brl_kwp": 4000.0,
+  "custo_marginal_bess_brl_kwh": 1500.0,
+  "custo_marginal_pcs_brl_kw": 900.0,
+  "capex_instalacao_conexao_brl": 1688976.4815190923,
+  "custo_aquisicao_100_bev_brl": 284982110.8794,
+  "valor_oportunidade_350_diesel_brl": 140151189.5,
+  "custo_reposicao_350_diesel_brl": 280302379.0,
+  "anos_reposicao_diesel": [
+    6,
+    18
+  ],
+  "custo_reposicao_100_bev_brl": 284982110.8794,
+  "anos_reposicao_bev": [
+    10
+  ],
+  "credito_residual_bev_brl": 23748509.23995,
+  "custo_diesel_combustivel_anual_brl": 59160822.102431245,
+  "custo_manutencao_diesel_anual_brl": 44485456.75049999,
+  "custo_manutencao_bev_anual_brl": 14875359.148002613,
+  "preco_eletricidade_brl_kwh": 0.8,
+  "preco_demanda_brl_kw_mes": 30.0,
+  "opex_ativos_fracao_capex_ano": 0.02,
+  "residual_ativos_fracao_capex_ano20": 0.1,
+  "nota": "Custos marginais e tarifas sao HIPOTESES sinteticas; referencia R0 deriva de registros do projeto. Campos null devem ser preenchidos com dados extraidos da ponte de frota antes de executar. Não equivale a homologação nem certifica atendimento de PKM."
+}

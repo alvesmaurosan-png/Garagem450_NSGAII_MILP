@@ -1,0 +1,21 @@
+{
+  "rev032c_config": "parametros/economia_rev032c.json",
+  "monetary": {
+    "target_period": "2026-01",
+    "status": "PENDING",
+    "index": {
+      "source": "",
+      "series": "",
+      "url": "",
+      "retrieved_on": "",
+      "methodology": "",
+      "may_2025": null,
+      "jan_2026": null
+    },
+    "approval": {
+      "decision_id": "",
+      "approved_by": "",
+      "approved_on": ""
+    }
+  }
+}

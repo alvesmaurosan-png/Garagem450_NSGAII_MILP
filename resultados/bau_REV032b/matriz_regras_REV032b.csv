@@ -1,0 +1,15 @@
+﻿categoria,regra,status_parametro,fonte,ano_base,justificativa,parametros_json,habilitado_para_fluxo,bloqueio
+fleet_purchase,initial_unit,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+fleet_maintenance,annual_unit,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+fleet_replacement,replacement_unit,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+charger_purchase,initial_unit,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+charger_maintenance,annual_unit,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+charger_replacement,replacement_unit,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+electrical_installation,initial_fixed,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+grid_connection,initial_fixed,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+grid_reinforcement,initial_fixed,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+grid_energy,annual_energy,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+grid_demand,annual_demand,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+grid_charges,annual_fixed,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+system_opex,annual_fixed,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO
+residual_credit,residual_fraction,PENDING,,,,{},NAO,AUSENTE_OU_NAO_VALIDADO

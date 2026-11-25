@@ -1,0 +1,29 @@
+{
+  "generator": "REV032e_BAU_ECONOMIC_INVENTORY_ONLY",
+  "classification": "SYNTHETIC_EXPLORATORY",
+  "source_hashes": {
+    "rev032d_config": "42b49f7c5258db1907298f4c79b0f0a0632d23d5c23310650fd4dd6998826eb4",
+    "rev032d_audit": "79949beb25474e2eea22d8fd3276eabfef779f7e00f5364dd616ec494beaa28d",
+    "rev032d_memo": "3b861a62f4aa5d2f8ae9f5cd5df7034a25f8bb7b500696a8105bd90e19de6617",
+    "rev032b_inventory": "7b1a31d8c26a1e4a44da162ee063bad1b3222d90e1fc570608accfac848965da",
+    "rev032c_rules": "2761823e78e15f200d4c4d972cd24f5c12625c6ed105d24150374985c70c2568"
+  },
+  "active_master_records": 10,
+  "categories": 14,
+  "research_and_decision_gaps": 14,
+  "documented_monetary_values": 1,
+  "homologated_cost_categories": 0,
+  "cost_rows": 294,
+  "blocked_rows": 294,
+  "F1_brl_per_pkm": null,
+  "LCOE_brl_per_kwh": null,
+  "BAU_final_approved": false,
+  "prior_revisions_modified": false,
+  "economic_status": "BLOCKED_COST_SCOPE_AND_VALIDATION",
+  "notes": [
+    "Matriz de lacunas nao implica que todas exigem pesquisa de mercado; algumas exigem decisao tecnica ou evidencia da distribuidora",
+    "IPCA documentado nao homologa preco BEV 2038",
+    "Nenhum custo, zero ou fluxo foi liberado",
+    "Nao modifica arquivos anteriores"
+  ]
+}

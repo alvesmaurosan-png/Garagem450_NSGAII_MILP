@@ -1,0 +1,11 @@
+﻿id,parametro,valor_fonte,unidade_fonte,status_fonte,origem,aplicacao_fonte,campo_destino_proposto,escopo_revisao,tratamento,status_integracao,observacao
+D03-001,Frota total sintética,450,ônibus,Premissa do exercício,Protocolo REV02,"BAU,R0,R1,R2",physical.fleet_size,BAU,Frota 450 BEV,REFERENCIA_SEM_IMPORTACAO,450 ônibus: hipótese definida no exercício.
+D05-001,PCC importação máxima,2500,kW,Premissa do exercício,Protocolo REV02,"BAU,R0,R1,R2",scenario.pcc_limit,R0/R1/R2,NAO APLICAR AO BAU,REFERENCIA_SEM_IMPORTACAO,2.500 kW apenas R0/R1/R2; BAU ampliável com custo.
+ECO-001,Taxa real de desconto,0.08,fração/ano,Premissa adotada,Pesquisa REV01,BAU/R0/R1/R2,economics.real_discount_rate,BAU,Desconto real,REFERENCIA_SEM_IMPORTACAO,Taxa real de desconto; análise de sensibilidade
+ECO-002,Horizonte econômico,20,anos,Premissa adotada,Pesquisa REV01,BAU/R0/R1/R2,economics.years,BAU,Horizonte,REFERENCIA_SEM_IMPORTACAO,20 fluxos anuais; 2038–2057
+ECO-003,Ano de implantação,2038,ano,Premissa adotada,Protocolo REV02,BAU/R0/R1/R2,economics.first_year,BAU,Implantacao,REFERENCIA_SEM_IMPORTACAO,Ano de implantação do exercício
+ECO-004,Ano-base monetário,2026,ano,Premissa adotada,Protocolo REV02,BAU/R0/R1/R2,economics.currency_base_year,BAU,Reais constantes,REFERENCIA_SEM_IMPORTACAO,R$ constantes de 2026
+ECO-005,Primeiro fluxo operacional,2038,ano,Premissa adotada,Protocolo REV02,BAU/R0/R1/R2,economics.first_operational_year,BAU,Primeiro fluxo fim 2038,REFERENCIA_SEM_IMPORTACAO,Primeiro fluxo no fim de 2038
+ECO-006,Data de referência VP,início de 2038,nan,Premissa adotada,Protocolo REV02,BAU/R0/R1/R2,economics.pv_reference,BAU,t=0 inicio 2038,REFERENCIA_SEM_IMPORTACAO,Referência temporal t=0
+ECO-009,CAPEX ônibus BEV,2799076.42,R$/ônibus,Documentado — converter ano-base,Pesquisa REV01,BAU/R0/R1/R2,fleet_purchase,BAU,Preco mai/2025; conversao 2026 pendente,REFERENCIA_SEM_IMPORTACAO,"Padron; preço mai/2025, NÃO em R$2026"
+OPS-003,Consumo ônibus GAS-BUS,0.6,Nm³/km,Referência técnica — validar,Pesquisa REV01,BAU/R0/R1/R2,gas_bus_consumption,R2,NAO APLICAR AO BAU,REFERENCIA_SEM_IMPORTACAO,m³/km; verificar base volumétrica e tipo de ônibus

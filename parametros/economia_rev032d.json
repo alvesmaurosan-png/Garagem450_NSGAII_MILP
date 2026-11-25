@@ -1,0 +1,21 @@
+{
+  "rev032c_config": "parametros/economia_rev032c.json",
+  "monetary": {
+    "target_period": "2026-01",
+    "status": "DOCUMENTED",
+    "index": {
+      "source": "IBGE - IPCA",
+      "series": "IPCA numero-indice geral, dez/1993=100",
+      "url": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/IPCA/Fasciculo_Indicadores_IBGE/ipca-inpc_202602caderno.pdf",
+      "retrieved_on": "2026-11-15",
+      "methodology": "Razao dos numeros-indice: jan/2026 dividido por mai/2025",
+      "may_2025": 7295.46,
+      "jan_2026": 7427.72
+    },
+    "approval": {
+      "decision_id": "",
+      "approved_by": "",
+      "approved_on": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "natureza": "CENARIO_ECONOMICO_SINTETICO_EXPLORATORIO_NAO_HOMOLOGADO",
+  "base_monetaria": "jan/2026; excecao tarifas eletricas referencia jul/2026, igualmente explicitada no BAU",
+  "horizonte": [
+    2038,
+    2057
+  ],
+  "taxa_real": 0.08,
+  "pkm_anual_comum": 569130934.0742,
+  "vp_pkm": 5587811404.879797,
+  "vp_r0_brl": 2077477658.3946,
+  "f1_r0_exploratorio_brl_pkm": 0.37178736143105207,
+  "vp_bau_reconstruido_brl": 2636789000.1373,
+  "diferenca_bau_g08_brl": -0.0026998519897460938,
+  "vp_bau_g08_brl": 2636789000.14,
+  "f1_bau_g08_exploratorio_brl_pkm": 0.4718822467482189,
+  "delta_f1_r0_menos_bau": -0.10009488531716682,
+  "premissas_novas": {
+    "fator_ipca_maio25_jan26": 1.01416788213048,
+    "demanda_contratada_kw_ponta_e_fora": 2500,
+    "energia_rede_jul26_brl_ano": 994108.64,
+    "demanda_contratada_jul26_brl_ano": 1523700.0,
+    "infraestrutura_proxy_proporcao_pcc": 0.5916221569597248,
+    "instalacao_r0_brl": 888209.6969338419,
+    "conexao_r0_brl": 111026.21211673024,
+    "vida_bess_anos": 10,
+    "vida_pcs_anos": 15,
+    "vida_pv_anos": 25,
+    "vida_diesel_anos": 12,
+    "recuperacao_residual": 0.5,
+    "opex_incremental_sistema": "zero por fronteira contábil G04, não custo real zero",
+    "encargos_extras": "zero por fronteira tarifária simplificada G05, não fatura real"
+  },
+  "restricoes_de_interpretacao": [
+    "BAU G08 reconstituido por rubrica e reconciliado ao VP publicado (diferenca apenas de arredondamento)",
+    "tarifas jul/2026 permanecem excecao monetaria; sem harmonizacao regulatoria retroativa",
+    "servico comum PKM e requisito aprovado, nao comprovacao de atendimento operacional R0",
+    "f1 e exploratorio condicionado a premissas, nao liberacao cientifica NSGA-II"
+  ]
+}

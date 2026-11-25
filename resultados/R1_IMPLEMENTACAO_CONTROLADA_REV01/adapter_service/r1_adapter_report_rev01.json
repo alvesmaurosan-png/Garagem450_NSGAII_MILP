@@ -1,0 +1,16 @@
+{
+  "status": "ADAPTER_CREATED_NOT_MILP_FEASIBILITY",
+  "vehicles": 450,
+  "service_blocks": 900,
+  "slots": 96,
+  "vehicle_slot_rows": 43200,
+  "traction_kwh_day": 83386.664545,
+  "max_abs_traction_reconciliation_kwh": 1.2300001799303573e-06,
+  "precheck_issues": 0,
+  "charge_policy": "MILP_DECISION_NOT_FIXED",
+  "notes": [
+    "Slots parcialmente disponiveis foram conservadoramente bloqueados",
+    "Nenhum teste de portas, PCC, PV, BESS ou CHP-BIO foi executado",
+    "SOC individual e ciclicidade devem ser impostos no MILP"
+  ]
+}

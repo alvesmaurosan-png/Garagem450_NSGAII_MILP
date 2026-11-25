@@ -1,0 +1,125 @@
+{
+  "bau_config": "parametros/bau_rev032.json",
+  "reference_t0": "INICIO_2038",
+  "currency_base": "BRL_CONSTANT_2026",
+  "physical_drivers": {
+    "annual_ac_kwh": 32038034.272552636,
+    "peak_pcc_import_kw": 3841.5203747807027,
+    "fleet_count": 450,
+    "charger_ports": 29
+  },
+  "categories": {
+    "fleet_purchase": {
+      "rule": "initial_unit",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "fleet_maintenance": {
+      "rule": "annual_unit",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "fleet_replacement": {
+      "rule": "replacement_unit",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "charger_purchase": {
+      "rule": "initial_unit",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "charger_maintenance": {
+      "rule": "annual_unit",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "charger_replacement": {
+      "rule": "replacement_unit",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "electrical_installation": {
+      "rule": "initial_fixed",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "grid_connection": {
+      "rule": "initial_fixed",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "grid_reinforcement": {
+      "rule": "initial_fixed",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "grid_energy": {
+      "rule": "annual_energy",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "grid_demand": {
+      "rule": "annual_demand",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "grid_charges": {
+      "rule": "annual_fixed",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "system_opex": {
+      "rule": "annual_fixed",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    },
+    "residual_credit": {
+      "rule": "residual_fraction",
+      "status": "PENDING",
+      "source": "",
+      "price_base_year": null,
+      "justification": "",
+      "parameters": {}
+    }
+  }
+}

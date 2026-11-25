@@ -1,0 +1,14 @@
+{
+  "bau_config": "parametros/bau_rev032.json",
+  "rev032b_config": "parametros/economia_rev032b.json",
+  "monetary": {
+    "indexation_2025_2026": {
+      "status": "PENDING",
+      "source": "",
+      "methodology": "",
+      "index_may_2025": null,
+      "index_2026_reference": null,
+      "note": "Definir indice oficial ou especifico para onibus BEV, periodo e data de referencia de 2026. Nao presumir IPCA nem data final."
+    }
+  }
+}

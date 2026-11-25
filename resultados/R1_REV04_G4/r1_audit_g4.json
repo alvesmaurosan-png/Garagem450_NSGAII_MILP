@@ -1,0 +1,18 @@
+{
+  "solver_status": "HighsModelStatus.kOptimal",
+  "solver_version": "1.16.0",
+  "solver_incumbent_accepted": true,
+  "baseline_grid_kwh": 59962.74180622836,
+  "grid_kwh": 54452.93514625253,
+  "audit": {
+    "row": 1.0231815394945443e-12,
+    "bound": 2.6716406864579767e-12,
+    "integer": 0.0
+  },
+  "baseline_audit": {
+    "row": 1.1368683772161603e-12,
+    "bound": 0.0,
+    "integer": 0.0
+  },
+  "dual_bound": 54452.93514625253
+}

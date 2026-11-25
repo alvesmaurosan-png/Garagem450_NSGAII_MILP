@@ -1,0 +1,8 @@
+{
+  "rev032d_config": "parametros/economia_rev032d.json",
+  "purpose": "BAU_ECONOMIC_INVENTORY_ONLY",
+  "currency_base": "BRL_CONSTANT_2026",
+  "reference_month": "2026-01",
+  "allow_cost_flow_release": false,
+  "allow_f1_lcoe": false
+}

@@ -1,0 +1,19 @@
+﻿categoria,pendencia,detalhe
+fleet_purchase,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+fleet_maintenance,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+fleet_replacement,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+charger_purchase,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+charger_maintenance,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+charger_replacement,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+electrical_installation,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+grid_connection,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+grid_reinforcement,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+grid_energy,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+grid_demand,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+grid_charges,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+system_opex,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+residual_credit,CUSTO_NAO_HOMOLOGADO,"Fonte, ano-base, regra ou validacao pendente"
+fleet_purchase,INDICE_DE_CONVERSAO,ECO-009 maio/2025 requer indice e metodologia ate referencia de 2026
+grid_reinforcement,CAPACIDADE_EXISTENTE,Potencia de conexao existente nao documentada
+grid_demand,DEMANDA_CONTRATADA,Demanda contratada nao definida
+grid_energy,TARIFA_HOROSSAZONAL,"Tarifa, calendario e contabilizacao temporal nao homologados"

@@ -1,0 +1,101 @@
+{
+  "revision": "REV03.2f",
+  "classification": "SYNTHETIC_EXPLORATORY",
+  "status": "DOCUMENTED_NOT_HOMOLOGATED",
+  "currency": "BRL",
+  "price_base": "2026-01",
+  "source": {
+    "document": "SPTrans Relatorio Tecnico Dezembro 2024 planilha tarifaria base novembro 2024",
+    "file": "tarifa2025.pdf",
+    "sha256": "f8da8741499595f5e44e6694172bae1605aeca32d2eca0b15fe17a975c4adff3",
+    "tables": [
+      "9.1",
+      "9.6",
+      "9.14"
+    ]
+  },
+  "ipca": {
+    "series": "IBGE SIDRA tabela 1737 IPCA numero-indice dez/1993=100",
+    "source_month": "2024-11",
+    "source_index": 7063.77,
+    "target_month": "2026-01",
+    "target_index": 7427.72,
+    "factor": 1.0515234782559455,
+    "formula": "cost_brl_jan_2026 = cost_brl_nov_2024 * 7427.72 / 7063.77"
+  },
+  "fleet": {
+    "vehicles": 450,
+    "daily_km": 67794.036228,
+    "annual_days": 365,
+    "annual_km": 24744823.22322,
+    "annual_km_per_bus": 54988.4960516
+  },
+  "components": {
+    "parts_accessories": {
+      "source_monthly_brl_for_57": 370634,
+      "source_vehicles": 57,
+      "annual_brl_per_bus_source": 78028.21052631579,
+      "contains_infrastructure": true,
+      "segregated": false
+    },
+    "tires": {
+      "source_brl_per_km": 0.179,
+      "annual_brl_per_bus_source": 9842.9407932364
+    },
+    "maintenance_labor": {
+      "monthly_brl_per_bus_candidate_1": 1340.3,
+      "monthly_brl_per_bus_candidate_2": 3044.1,
+      "annual_brl_per_bus_candidate": 52612.8,
+      "evidence_status": "PENDING_EXACT_TABLE_ALLOCATION_VALIDATION",
+      "technician_electric_brl_per_bus_month": 3044.1,
+      "electric_maintenance_technician_brl_per_bus_month": 1422.04,
+      "monthly_brl_per_bus": 4466.14,
+      "annual_brl_per_bus_source": 53593.68000000001,
+      "excluded_trolleybus_technician_brl_per_bus_month": 1340.3,
+      "allocation_population_vehicles": 286,
+      "allocation_type": "electric_fleet_group_proxy"
+    }
+  },
+  "gross_candidate": {
+    "annual_brl_per_bus_nov_2024": 141464.8313195522,
+    "brl_per_km_nov_2024": 2.5726259395566067,
+    "annual_brl_per_bus_jan_2026": 148753.59148002614,
+    "brl_per_km_jan_2026": 2.7051765762140327,
+    "annual_fleet_brl_jan_2026": 66939116.166011766,
+    "approved_for_model": true,
+    "approval_scope": "SYNTHETIC_CONSERVATIVE_AGGREGATE_PROXY_ONLY"
+  },
+  "fleet_maintenance": {
+    "unit": "BRL_2026_01_per_km",
+    "value": 2.7051765762140327,
+    "status": "APPROVED_SYNTHETIC_ACCOUNTING_PROXY_WITH_INFRASTRUCTURE_RESERVATION",
+    "cannot_double_count": [
+      "charger_maintenance",
+      "system_opex",
+      "grid_energy"
+    ],
+    "battery_replacement_scheduled": false,
+    "annual_brl_per_bus": 148753.59148002614,
+    "annual_fleet_brl": 66939116.166011766,
+    "infrastructure_embedded_brl": "UNKNOWN_NOT_ZERO",
+    "evidence_grade": "ASSUMPTION_NOT_HOMOLOGATED_OBSERVATION",
+    "accounting_rule": "Infrastructure embedded in SPTrans parts allowance remains reserved in fleet_maintenance. Other categories must exclude overlapping costs."
+  },
+  "economic_gates": {
+    "F1_brl_per_pkm": null,
+    "LCOE_brl_per_kwh": null,
+    "BAU_final_approved": false,
+    "NSGAII_MILP_economic_release": false,
+    "fleet_maintenance_accounting_proxy_closed": true
+  },
+  "immutability": {
+    "prior_revisions_must_remain_unchanged": true,
+    "write_scope": "parametros/economia_rev032f.json only"
+  },
+  "notes": [
+    "Gross candidate includes nonsegregated infrastructure; not an approved fleet-only OPEX",
+    "Labor candidate requires exact source-table allocation verification",
+    "No unverified cost set to zero",
+    "Prices held constant in real Jan 2026 BRL across 2038-2057"
+  ]
+}

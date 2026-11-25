@@ -1,0 +1,15 @@
+﻿prioridade,categoria,tipo_pendencia,acao_necessaria,depende_de,status
+P1,fleet_purchase,VALIDACAO_DOCUMENTAL_E_DECISAO,"Validar configuracao, escopo e elegibilidade do preco BEV para 2038; cronograma de aquisicao",fleet_replacement;residual_credit,ABERTA
+P1,fleet_maintenance,PESQUISA_PRECO,"Contrato/plano de manutencao, custo anual por veiculo e inclusoes",system_opex,ABERTA
+P1,fleet_replacement,DECISAO_TECNICA_E_PRECO,Vida util e calendario de substituicao; custo de reposicao sem duplicar compra inicial,fleet_purchase;residual_credit,ABERTA
+P1,charger_purchase,ESPECIFICACAO_E_PRECO,"Topologia e potencia nominal dos equipamentos, preco instalado ou nao instalado",electrical_installation,ABERTA
+P2,charger_maintenance,PESQUISA_PRECO,OPEX anual e itens cobertos por garantia/contrato,system_opex,ABERTA
+P2,charger_replacement,DECISAO_TECNICA_E_PRECO,"Vida util, modulos substituidos e custos futuros em reais constantes",charger_purchase;residual_credit,ABERTA
+P1,electrical_installation,PROJETO_E_ORCAMENTO,"Memorial e orcamento: transformador, cubiculos, cabos, protecoes, obras e engenharia",charger_purchase;grid_connection,ABERTA
+P1,grid_connection,EVIDENCIA_DISTRIBUIDORA,"Parecer de acesso, capacidade existente e orcamento de conexao",grid_reinforcement;electrical_installation,ABERTA
+P1,grid_reinforcement,EVIDENCIA_DISTRIBUIDORA,Necessidade de obras e responsabilidade de custeio; nao presumir custo zero,grid_connection,ABERTA
+P1,grid_energy,TARIFA_OFICIAL_E_MODELO,"Tarifa horossazonal, impostos/encargos e calendario tarifario; evitar tarifa media sem justificativa",grid_charges;grid_demand,ABERTA
+P1,grid_demand,TARIFA_OFICIAL_E_CONTRATO,Demanda contratada e tarifa R$/kW mes; regras de ultrapassagem e modalidades,grid_energy;grid_charges,ABERTA
+P2,grid_charges,RECONCILIACAO_CONTABIL,Delimitar encargos nao inclusos em energia/demanda; documentar eventuais zeros,grid_energy;grid_demand,ABERTA
+P2,system_opex,PESQUISA_PRECO_E_ESCOPO,Custos administrativos/seguros/operacao sem manutencoes ja contadas,fleet_maintenance;charger_maintenance,ABERTA
+P2,residual_credit,DECISAO_METODOLOGICA,"Vidas uteis remanescentes, metodo e credito separado, sem dupla contagem",fleet_replacement;charger_replacement,ABERTA

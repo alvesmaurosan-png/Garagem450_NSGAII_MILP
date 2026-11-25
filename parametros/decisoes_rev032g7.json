@@ -1,0 +1,10 @@
+{
+  "charger_replacement": {
+    "value_brl": 0.0,
+    "replacement_years": [],
+    "horizon": [2038, 2057],
+    "status": "APPROVED_SYNTHETIC_SCENARIO_ASSUMPTION",
+    "assumption": "NO_CHARGER_REPLACEMENT_DURING_HORIZON",
+    "evidence_grade": "MODELING_ASSUMPTION_NOT_VALIDATED_LIFETIME"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sample_sessions": 115,
+  "synthetic_vehicles": 450,
+  "source_unique_vehicles": 115,
+  "energy_sample_dc_kwh": 21777.568907000004,
+  "energy_synthetic_dc_kwh": 85369.312027,
+  "energy_hourly_dc_kwh": 85369.31196800002,
+  "peak_hourly_dc_kw": 18918.2523967,
+  "peak_instantaneous_dc_kw": 21666.0,
+  "peak_concurrent_sessions": 157,
+  "source_charger_ids": 41,
+  "minimum_138kw_ports_for_fixed_schedule": 157,
+  "earliest_start_min": 0.0,
+  "latest_end_min": 1262.146694,
+  "deadlines_beyond_day": 8,
+  "pkm_status": "UNDEFINED_NO_DISTANCE_OR_OCCUPANCY",
+  "service_status": "UNVALIDATED_NO_BLOCK_SCHEDULE",
+  "grid_pcc_status": "NOT_TESTED_NO_AC_LOSSES_OR_OPTIMIZED_DISPATCH",
+  "source_sha256": "93de5cd1aba2ae7f5789458f1da15d83bbf931879f7f8fbcab8b2febb79e081d",
+  "generator_version": "REV01 deterministic modulo-115 offset [-30,+30]"
+}

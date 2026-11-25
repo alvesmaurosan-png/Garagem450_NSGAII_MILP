@@ -1,0 +1,49 @@
+{
+  "generator": "REV032b_ECONOMIC_RULE_RECONCILIATION",
+  "classification": "SYNTHETIC_EXPLORATORY",
+  "hashes": {
+    "master_xlsx": "26518a14bc9b53af59d43487abb451ca0bee79f65ae9667a252b28d779fe1f2d",
+    "bau_config": "0b4f844e6d8914c5dbd4580034c686d8d74d04bdaf1a44a9f47829e35b2f7c04",
+    "rev032_audit": "f008f4aa6a398e76056bf579db475cc357689c086cb5c9996a31bcfdb6f60250"
+  },
+  "master_active_records": 10,
+  "categories": 14,
+  "cost_rows": 294,
+  "validated_cost_rows": 0,
+  "blocked_cost_rows": 294,
+  "blocked_categories": [
+    "fleet_purchase",
+    "fleet_maintenance",
+    "fleet_replacement",
+    "charger_purchase",
+    "charger_maintenance",
+    "charger_replacement",
+    "electrical_installation",
+    "grid_connection",
+    "grid_reinforcement",
+    "grid_energy",
+    "grid_demand",
+    "grid_charges",
+    "system_opex",
+    "residual_credit"
+  ],
+  "reference_t0": "INICIO_2038",
+  "first_operational_year": 2038,
+  "last_operational_year": 2057,
+  "currency_base": "BRL_CONSTANT_2026",
+  "real_discount_rate": 0.08,
+  "physical_reference_verified": true,
+  "bau_grid_expandable": true,
+  "pcc_2500_applied_to_bau": false,
+  "F1_brl_per_pkm": null,
+  "LCOE_brl_per_kwh": null,
+  "BAU_final_approved": false,
+  "economic_status": "BLOCKED_MISSING_OR_UNVALIDATED_COSTS",
+  "warnings": [
+    "ECO-009 maio/2025 nao convertido para 2026",
+    "Nenhum zero implicito: somente regras validadas geram zeros fora do periodo de incidencia",
+    "Creditos residuais sao positivos na matriz e devem ser subtraidos no custo total futuro",
+    "Tarifa anual_energy e simplificacao: tarifacao horossazonal exige serie 15 min e calendario",
+    "Evitar dupla contagem entre charger_purchase/electrical_installation e grid_charges/grid_energy/grid_demand"
+  ]
+}

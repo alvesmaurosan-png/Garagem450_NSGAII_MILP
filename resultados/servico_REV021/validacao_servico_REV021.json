@@ -1,0 +1,41 @@
+{
+  "generator": "D2_REV021_CONTINUOUS_DAILY_SYNTHETIC_PILOT",
+  "input_sha256": {
+    "veiculos_servico_24h_REV02.csv": "03fe246444ede581a0e3f4f142069f6df9f538f84ece2e3405866fcb8e836da0",
+    "blocos_servico_24h_REV02.csv": "41974b68d7ca60b31d55923c4c16a35754badc89cd9eb7a58c9e0ef77f01ba69"
+  },
+  "assumptions": {
+    "day_minutes": 1440,
+    "cycles": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "battery_kwh": 350.0,
+    "soc_initial_at_warmup_start": 0.9,
+    "soc_min": 0.15,
+    "soc_max": 0.9,
+    "charge_power_dc_kw": 138.0,
+    "dc_battery_efficiency": 1.0,
+    "turnaround_each_side_min": 10.0,
+    "service_repeated_every_1440_min": true,
+    "service_energy_uniform_within_each_block": true,
+    "charging_policy": "GREEDY_EARLIEST_AVAILABLE_TO_SOC_MAX",
+    "no_charger_port_allocation": true,
+    "no_pcc_constraint": true
+  },
+  "vehicles": 450,
+  "events_all_days": 7015,
+  "windows_all_days": 2250,
+  "day_traction_kwh": 83386.66454499999,
+  "day_charge_dc_kwh": 83386.66454499999,
+  "day_soc_bounded_vehicles": 450,
+  "day_periodic_soc_vehicles": 450,
+  "day_individual_pilot_pass": 450,
+  "max_abs_energy_residual_kwh": 6.727951529228449e-14,
+  "conflicts_by_type": {},
+  "gate_D2": "NOT_APPROVED_REQUIRES_CHARGER_ASSIGNMENT_PCC_AND_FULL_SERVICE_VALIDATION",
+  "warning": "SOC start at -2 cycles is a warmup assumption; not a certified periodic fixed point."
+}

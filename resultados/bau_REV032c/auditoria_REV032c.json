@@ -1,0 +1,33 @@
+{
+  "generator": "REV032c_MONETARY_CONTROL_ONLY",
+  "classification": "SYNTHETIC_EXPLORATORY",
+  "hashes": {
+    "master": "26518a14bc9b53af59d43487abb451ca0bee79f65ae9667a252b28d779fe1f2d",
+    "bau_config": "0b4f844e6d8914c5dbd4580034c686d8d74d04bdaf1a44a9f47829e35b2f7c04",
+    "rev032_audit": "f008f4aa6a398e76056bf579db475cc357689c086cb5c9996a31bcfdb6f60250",
+    "rev032b_config": "6a6c825b3416139efc12d8da81a14cb0b98afac1e632855944aa8de3354b39c1",
+    "rev032b_audit": "dd02192e9d171155052c11f1cc9627af7e227bf7e94f8d89edfc1dec6edf3cf0"
+  },
+  "master_active_records": 10,
+  "monetary_source": "ECO-009",
+  "source_price_brl_may_2025": 2799076.42,
+  "conversion_index_status": "PENDING",
+  "conversion_methodology": null,
+  "converted_unit_price_brl_2026": null,
+  "monetary_conversion_ready": false,
+  "reference_t0": "INICIO_2038",
+  "cost_rows": 294,
+  "blocked_rows": 294,
+  "categories": 14,
+  "F1_brl_per_pkm": null,
+  "LCOE_brl_per_kwh": null,
+  "BAU_final_approved": false,
+  "economic_status": "BLOCKED_MONETARY_RECONCILIATION",
+  "prior_revisions_modified": false,
+  "notes": [
+    "Valor monetario convertido, se houver, e documental; nao habilita automaticamente CAPEX da frota",
+    "Nenhum zero implicito e nenhum fluxo numerico foi gerado",
+    "Tarifa horossazonal e custos de reforco continuam pendentes",
+    "As 14 rubricas exigem verificacao de dupla contagem e escopo"
+  ]
+}

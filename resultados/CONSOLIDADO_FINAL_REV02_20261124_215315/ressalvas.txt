@@ -1,0 +1,8 @@
+REV02: CHP maximo 15 modulos; BAU e R0 copiados da REV01. Ausencia de candidatos nao certifica inviabilidade.
+Economia harmonizada exploratoria: tarifa 0.80, demanda 360 por kW ano, carregador 250000 por porta; BAU historico preservado em f1.
+Reposicao PCS ano 15, PV inversor e BESS ano 12; residual simplificado 10%; sem contingencia adicional.
+O&M BEV agregado pode sobrepor O&M eletrico; custos de conexao BAU historicos, reforco adicional nao quantificado.
+LCOE: rateio proporcional energia AC de tracao e compressao, nao custeio marginal.
+Diesel preco inferido da premissa sintetica e km medio; km por prefixo.
+CO2 parcial: rede 0.10 kg/kWh, diesel 2.68 kg/L, GN 2.00 kg/Nm3; sem credito CGOB.
+Fronteiras do conjunto amostrado; sem nova otimizacao, sem certificacao anual; BAU eta .95, rotas .9727.

@@ -1,0 +1,2 @@
+﻿item,valor_fonte_brl,periodo_origem,periodo_destino,indice_origem,indice_destino,formula,valor_convertido_brl,indice_fonte,indice_url,serie,data_consulta,status_indice,aprovacao,uso_em_fluxos
+ECO-009,2799076.42,2025-05,2026-01,7295.46,7427.72,preco_fonte * indice_destino / indice_origem,2849821.108794,IBGE - IPCA,https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/IPCA/Fasciculo_Indicadores_IBGE/ipca-inpc_202602caderno.pdf,"IPCA numero-indice geral, dez/1993=100",2026-11-15,DOCUMENTED,NAO,PROIBIDO_REV032d

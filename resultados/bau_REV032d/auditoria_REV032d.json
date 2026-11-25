@@ -1,0 +1,32 @@
+{
+  "generator": "REV032d_DOCUMENTED_MONETARY_APPROVAL_ONLY",
+  "classification": "SYNTHETIC_EXPLORATORY",
+  "reference_month": "2026-01",
+  "index_status": "DOCUMENTED",
+  "index_complete": true,
+  "index_approved": false,
+  "source_price_brl_may_2025": 2799076.42,
+  "converted_unit_price_brl_jan_2026": 2849821.108794,
+  "approved_for_model": false,
+  "source_hashes": {
+    "rev032c_config": "160c97e572b1cd14fcc599ce837a68f93e7fe8a7c1046fe4f2ff6f3cb62c8de1",
+    "rev032c_audit": "2f5632061ecbafbc1329f36a59db95167d4228426cfa36a43f970f5677b93ecc",
+    "rev032c_inventory": "720fed21cca27866d5fa0b0780ae9896f52ed0b14c84ac78cbeef31c700ae84d",
+    "rev032c_rules": "2761823e78e15f200d4c4d972cd24f5c12625c6ed105d24150374985c70c2568",
+    "rev032c_flows": "200cbc532874d5ddb366d1ab8197da3cff3b3da048a89dcac98b03ff0f3c23f7"
+  },
+  "categories": 14,
+  "cost_rows": 294,
+  "blocked_rows": 294,
+  "F1_brl_per_pkm": null,
+  "LCOE_brl_per_kwh": null,
+  "BAU_final_approved": false,
+  "prior_revisions_modified": false,
+  "economic_status": "BLOCKED_COST_SCOPE_AND_VALIDATION",
+  "notes": [
+    "Aprovacao do indice nao homologa preco tecnologico 2038",
+    "IPCA nao e projecao de custo futuro de BEV",
+    "Nenhum fluxo foi liberado; nenhuma revisao anterior foi escrita",
+    "Aprovar documento exige decisao formal e verificacao da fonte oficial"
+  ]
+}

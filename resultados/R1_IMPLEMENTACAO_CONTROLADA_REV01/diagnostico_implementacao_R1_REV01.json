@@ -1,0 +1,462 @@
+{
+  "status": "R1_DIAGNOSTICO_IMPLEMENTACAO_SEM_SOLVER",
+  "source": "parametros\\Base_Mestre_450_Reconciliada_REV03.xlsx",
+  "source_sha256": "76fe62d348a2f5da67f0cb4aada0a6acda4b3f1661ea90dab93817385d3d3948",
+  "timestamp_utc": "2026-11-24T14:30:55.112674+00:00",
+  "r1": {
+    "bev": 450,
+    "pcc_max_kw": 2500,
+    "architecture": [
+      "REDE",
+      "PV",
+      "BESS",
+      "CHP_BIO"
+    ]
+  },
+  "parameters": {
+    "D08-001": [
+      "D08-001",
+      "D08",
+      "PCI biogás",
+      6,
+      "kWh/Nm³",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "6",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-002": [
+      "D08-002",
+      "D08",
+      "Fração metano biogás",
+      0.6,
+      "fração",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.6",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-003": [
+      "D08-003",
+      "D08",
+      "Rendimento metano",
+      60,
+      "Nm³ CH4/t substrato úmido",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "60",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-004": [
+      "D08-004",
+      "D08",
+      "Substrato",
+      "Garantido; quantidade endógena",
+      "regra",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "Garantido; quantidade endógena",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-005": [
+      "D08-005",
+      "D08",
+      "TRH biodigestor",
+      30,
+      "dias",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "30",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-006": [
+      "D08-006",
+      "D08",
+      "Fração útil digestor",
+      0.8,
+      "fração",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.8",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-007": [
+      "D08-007",
+      "D08",
+      "Densidade substrato",
+      1,
+      "t/m³",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "1",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-008": [
+      "D08-008",
+      "D08",
+      "CAPEX biodigestor",
+      500,
+      "R$/(t/ano)",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "500",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-009": [
+      "D08-009",
+      "D08",
+      "CAPEX tratamento biogás",
+      1000,
+      "R$/(Nm³/h)",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "1000",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-010": [
+      "D08-010",
+      "D08",
+      "OPEX digestão/tratamento",
+      0.05,
+      "fração CAPEX/ano",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.05",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-011": [
+      "D08-011",
+      "D08",
+      "Substrato entregue",
+      50,
+      "R$/t",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "50",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-012": [
+      "D08-012",
+      "D08",
+      "Transporte e preparo substrato",
+      40,
+      "R$/t",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "40",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D08-013": [
+      "D08-013",
+      "D08",
+      "Auxiliares biodigestão",
+      0.05,
+      "fração geração CHP",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.05",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-001": [
+      "D09-001",
+      "D09",
+      "Potência CHP",
+      "75 × n; n inteiro >= 0",
+      "kWe",
+      "Consolidado REV03 — modularidade CHP",
+      "Decisão REV03: 75 kWe por módulo",
+      null,
+      "Variável discreta NSGA-II",
+      "R1,R2",
+      "CHP somente R1/R2; não compõe R0. P_CHP_nom=75 n kWe, n inteiro não negativo."
+    ],
+    "D09-002": [
+      "D09-002",
+      "D09",
+      "Eficiência elétrica CHP",
+      0.35,
+      "fração",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.35",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-003": [
+      "D09-003",
+      "D09",
+      "Carga mínima CHP ligado",
+      0.5,
+      "fração Pnom",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.5",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-004": [
+      "D09-004",
+      "D09",
+      "Disponibilidade CHP",
+      0.96,
+      "fração anual",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.96",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-006": [
+      "D09-006",
+      "D09",
+      "CAPEX CHP biogás",
+      8000,
+      "R$/kWe",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "8000",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-008": [
+      "D09-008",
+      "D09",
+      "OPEX CHP",
+      0.04,
+      "fração CAPEX/ano",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.04",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-009": [
+      "D09-009",
+      "D09",
+      "Reforma CHP ano 10",
+      0.25,
+      "fração CAPEX inicial",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.25",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-011": [
+      "D09-011",
+      "D09",
+      "Gasômetro autonomia",
+      8,
+      "horas",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "8",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-012": [
+      "D09-012",
+      "D09",
+      "CAPEX gasômetro",
+      1500,
+      "R$/m³",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "1500",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "D09-013": [
+      "D09-013",
+      "D09",
+      "OPEX gasômetro",
+      0.02,
+      "fração CAPEX/ano",
+      "Consolidado REV03 — premissa sintética",
+      "Decisão REV03: coluna I da REV02",
+      null,
+      "0.02",
+      "R1,R2",
+      "Validar valor e coerência com REV02; origem apenas como candidato."
+    ],
+    "OPS-006": [
+      "OPS-006",
+      "NOVO",
+      "Limites PV/BESS/PCS/CHP",
+      null,
+      "kWp;kWh;kW",
+      "Pendente — não ativar",
+      null,
+      null,
+      null,
+      "BAU/R0/R1/R2",
+      "Pendente por cenário"
+    ],
+    "OPS-007": [
+      "OPS-007",
+      "NOVO",
+      "Fator de capacidade/produção de biogás",
+      null,
+      "Nm³/h",
+      "Pendente — não ativar",
+      null,
+      null,
+      null,
+      "BAU/R0/R1/R2",
+      "Pendente R1/R2"
+    ],
+    "OPS-011": [
+      "OPS-011",
+      "NOVO",
+      "Custo/uso de calor recuperado CHP",
+      null,
+      "R$/ano",
+      "Pendente — não ativar",
+      null,
+      null,
+      null,
+      "BAU/R0/R1/R2",
+      "Somente se houver uso térmico demonstrado"
+    ]
+  },
+  "missing_parameter_ids": [],
+  "code_references": [
+    {
+      "file": "auditar_trajetoria_soc_pos365_r0_rev02.py",
+      "matches": {
+        "chp": 0,
+        "biog[aá]s": 0,
+        "biodigest": 0,
+        "gas[oô]metro": 0,
+        "r1": 6
+      }
+    },
+    {
+      "file": "auditar_trajetoria_soc_pos365_r0_rev02_completo.py",
+      "matches": {
+        "chp": 0,
+        "biog[aá]s": 0,
+        "biodigest": 0,
+        "gas[oô]metro": 0,
+        "r1": 6
+      }
+    },
+    {
+      "file": "iniciar_R1_auditoria_controlada.py",
+      "matches": {
+        "chp": 5,
+        "biog[aá]s": 2,
+        "biodigest": 2,
+        "gas[oô]metro": 1,
+        "r1": 15
+      }
+    },
+    {
+      "file": "src\\otimizar_recarga_rev023.py",
+      "matches": {
+        "chp": 2,
+        "biog[aá]s": 0,
+        "biodigest": 0,
+        "gas[oô]metro": 0,
+        "r1": 0
+      }
+    },
+    {
+      "file": "src\\otimizar_recarga_rev023a.py",
+      "matches": {
+        "chp": 1,
+        "biog[aá]s": 0,
+        "biodigest": 0,
+        "gas[oô]metro": 0,
+        "r1": 0
+      }
+    },
+    {
+      "file": "src\\reconciliar_economia_rev032a.py",
+      "matches": {
+        "chp": 0,
+        "biog[aá]s": 0,
+        "biodigest": 0,
+        "gas[oô]metro": 0,
+        "r1": 1
+      }
+    }
+  ],
+  "gates": [
+    {
+      "id": "G-R1-01",
+      "description": "450 BEV e mesmo serviço exigido; não inferir atendimento apenas pelo PKM comparativo",
+      "status": "A_VERIFICAR"
+    },
+    {
+      "id": "G-R1-02",
+      "description": "PCC importação <= 2500 kW em todos os intervalos",
+      "status": "A_VERIFICAR"
+    },
+    {
+      "id": "G-R1-03",
+      "description": "CHP=75*n kWe, n inteiro >=0; CHP=0 permitido",
+      "status": "ESPECIFICADO"
+    },
+    {
+      "id": "G-R1-04",
+      "description": "Balanço biogás local, substrato, biodigestor, tratamento e gasômetro no MILP",
+      "status": "IMPLEMENTACAO_NAO_DEMONSTRADA"
+    },
+    {
+      "id": "G-R1-05",
+      "description": "Disponibilidade 96%, mínimo técnico 50% e operação liga/desliga",
+      "status": "IMPLEMENTACAO_NAO_DEMONSTRADA"
+    },
+    {
+      "id": "G-R1-06",
+      "description": "Limites físicos e oferta local de substrato/biogás; não presumir capacidade ilimitada",
+      "status": "PENDENTE_NA_BASE"
+    },
+    {
+      "id": "G-R1-07",
+      "description": "CAPEX/OPEX por componente sem duplicar benchmark integrado CHP-BIO",
+      "status": "A_VERIFICAR"
+    },
+    {
+      "id": "G-R1-08",
+      "description": "F1 integral da frota e sistema; F2 pico anual; Pareto somente após factibilidade",
+      "status": "NAO_EXECUTADO"
+    }
+  ],
+  "preservation": "Não altera BAU, R0, P2 nem executa MILP/NSGA-II."
+}
