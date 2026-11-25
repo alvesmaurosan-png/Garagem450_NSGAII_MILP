@@ -1,0 +1,18 @@
+{
+  "status": "PASS_RECONCILIACAO_ARITMETICA",
+  "fonte": "resultados\\consolidado_REV04\\comparativo.csv",
+  "sha256": "592006804e59a750199b6ae329c742a73176772a18cf0dcaf3d0726fd31ababe",
+  "pkm_ano": 569130934.0742,
+  "gas_nm3_ano": 14812090.030816345,
+  "fator_gn_kg_nm3": 2,
+  "fator_rede_kg_kwh": 0.1,
+  "CO2_original_t_ano": 29629.065842261443,
+  "CO2_rede_t_ano": 4.885780628754563,
+  "cobertura_hipotetica_pct": 100.0,
+  "CO2_atribuido_t_ano": 4.885780628754563,
+  "CO2_biogenico_t_ano": null,
+  "CGOB_aquisicao_cancelamento_verificados": false,
+  "metodologia_atribuicao_validada": false,
+  "solver_executado": false,
+  "ressalva": "Nao altera inventario fisico. Atribuicao hipotetica depende de metodologia aplicavel, equivalencia energetica, rastreabilidade e ausencia de dupla contagem. CO2 biogenico nao quantificado; sem ACV, CH4 ou N2O. Economia preservada; nao valida preco ou cobertura efetiva."
+}

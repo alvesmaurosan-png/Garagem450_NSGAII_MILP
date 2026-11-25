@@ -40,5 +40,39 @@ python -u nsga2_milp_garagem450_final_rev04.py --pop 24 --geracoes 20 --seed 42 
 
 REV01: referência R0; REV02: limite CHP de 15 módulos para R1/R2; REV04: R1 cronológica. Os consolidadores históricos usam nomes de execuções congeladas; não substituem automaticamente os resultados publicados. Os perfis G4 e solar G5.1 são entradas congeladas incluídas. `src/` e `tests/` mantêm componentes históricos e testes originais; não são todos necessários à execução principal. Para reproduzir experimentos antigos, extrair o ZIP histórico separado sobre uma cópia da árvore, mantendo caminhos originais. Não sobrescrever a release publicada.
 
+
+## Atualização v4.0.1 — REV04.1
+
+Complementação ambiental e visualização consolidada dos resultados da REV04.
+
+### Principais contribuições
+
+- Avaliação complementar dos atributos ambientais associados aos Certificados de Garantia de Origem de Biometano (CGOB).
+- Separação entre emissões fósseis operacionais físicas e emissões fósseis atribuídas hipoteticamente mediante instrumentos contratuais.
+- Análise de sensibilidade da cobertura renovável de 0% a 100%.
+- Determinação dos limiares de equivalência ambiental entre as configurações.
+- Geração centralizada de gráficos econômicos, energéticos, ambientais, operacionais e de otimização, nos formatos PNG e SVG.
+- Preservação integral dos resultados originais da REV04.
+
+### Reprodução dos resultados
+
+```bash
+python avaliar_emissoes_cgob_rev041.py --cobertura 100
+python gerar_graficos_consolidados_rev041.py
+```
+
+Diretórios de saída:
+
+- `resultados/CGOB_REV041/`
+- `resultados/GRAFICOS_CONSOLIDADOS_REV041/`
+
+### Ressalvas científicas
+
+A atribuição ambiental mediante CGOB possui natureza exploratória e condicionada à elegibilidade metodológica, equivalência energética, rastreabilidade, aposentadoria dos certificados e ausência de dupla contagem.
+
+O indicador ajustado não substitui o inventário físico de emissões, não representa neutralidade de carbono e não constitui avaliação de ciclo de vida.
+
+Nenhuma nova otimização NSGA-II ou MILP foi executada nesta atualização. Os indicadores F1, F2 e LCOE permanecem inalterados.
+
 ## Publicação e licença
 Licença e autoria bibliográfica aguardam confirmação do responsável. Não há autorização de redistribuição presumida. Revisar direitos dos dados, documentos, metadados e informações institucionais antes de tornar público. O arquivo histórico é para custódia e não deve ser enviado automaticamente ao GitHub.
