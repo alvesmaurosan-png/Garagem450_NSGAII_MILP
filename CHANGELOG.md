@@ -35,3 +35,37 @@
 - CO₂ biogênico, CH₄, N₂O e impactos de ciclo de vida não quantificados.
 - Aquisição e aposentadoria efetiva dos certificados não verificadas.
 - Nenhuma nova execução dos algoritmos de otimização.
+
+
+## [4.0.2] ? 2026-11-26
+
+### Added
+
+- An?lise de sensibilidade econ?mica GN e CGOB.
+- 360 casos de sensibilidade.
+- Limiares de competitividade econ?mica da R2.
+- Tabelas CSV, gr?ficos PNG/SVG e auditoria JSON.
+- Relat?rio t?cnico-cient?fico REV04.2.
+- Apresenta??o PEN5038 revisada.
+
+### Changed
+
+- Gr?ficos de sensibilidade ambiental e econ?mica.
+- Discuss?o econ?mica e ambiental do CGOB.
+- Documenta??o t?cnico-cient?fica consolidada.
+
+### Preserved
+
+- Resultados originais das otimiza??es.
+- Fronteiras de Pareto observadas.
+- Configura??es energ?ticas e composi??o das frotas.
+- Registros de factibilidade operacional anual.
+- Indicadores originais do caso-base.
+- Emiss?es f?sicas modeladas.
+
+### Limitations
+
+- Pre?os e cobertura do CGOB s?o hip?teses explorat?rias.
+- Configura??o R2 fixa, sem reotimiza??o.
+- Atribui??o ambiental n?o homologada.
+- Nenhuma nova execu??o NSGA-II ou MILP.

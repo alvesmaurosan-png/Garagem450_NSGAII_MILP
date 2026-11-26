@@ -1,0 +1,44 @@
+{
+  "status": "PASS_RECONCILIACAO_ARITMETICA",
+  "solver_executado": false,
+  "configuracao_fixa": true,
+  "precos_validados": false,
+  "base_GN": 3,
+  "base_CGOB": 0.1,
+  "base_cobertura_pct": 100,
+  "pkm_ano": 569130934.0742,
+  "gas_nm3_ano": 14812090.030816345,
+  "taxa_real": 0.08,
+  "horizonte": 20,
+  "fator_vp": 9.818147407449285,
+  "caso_base": {
+    "GN_brl_nm3": 3,
+    "CGOB_brl_nm3_equivalente": 0.1,
+    "cobertura_pct": 100,
+    "preco_total_brl_nm3": 3.1,
+    "custo_GN_anual": 44436270.09244903,
+    "custo_CGOB_anual": 1481209.0030816346,
+    "delta_OPEX": 0.0,
+    "OPEX": 105352275.98647463,
+    "VP_total": 1962626905.2493303,
+    "F1": 0.3512335623094548,
+    "F2": 56.22062255435316,
+    "LCOE": 1.388885168541332,
+    "CAPEX": 706867174.6248546,
+    "delta_F1_BAU_pct": -28.283473321057638,
+    "delta_F1_R0_pct": -22.35820340741076,
+    "delta_F1_R1_pct": -31.041351280703832,
+    "menor_F1_estrito": true
+  },
+  "numero_casos": 360,
+  "fontes": {
+    "resultados\\consolidado_REV04\\comparativo.csv": "592006804e59a750199b6ae329c742a73176772a18cf0dcaf3d0726fd31ababe",
+    "premissas_sinteticas_rev01.json": "975f1e1ded90fbc49c9e886f0e57307219af44cf8eb20fb49870922b6017b937"
+  },
+  "ressalvas": [
+    "Precos em BRL constantes jan/2026 assumidos; sem harmonizacao tributaria ou metrologica das referencias externas.",
+    "Premio por Nm3 equivalente e cobertura energetica aproximada por volume; nao representa cotacao de certificado.",
+    "R$ 3,10 consta no consolidador REV02; decomposicao 3,00 + 0,10 e hipotese do estudo.",
+    "LCOE eletrico de tracao, CAPEX e F2 invariantes; nenhuma reotimizacao ou validacao ambiental."
+  ]
+}

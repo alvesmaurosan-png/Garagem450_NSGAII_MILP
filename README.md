@@ -76,3 +76,64 @@ Nenhuma nova otimização NSGA-II ou MILP foi executada nesta atualização. Os 
 
 ## Publicação e licença
 Licença e autoria bibliográfica aguardam confirmação do responsável. Não há autorização de redistribuição presumida. Revisar direitos dos dados, documentos, metadados e informações institucionais antes de tornar público. O arquivo histórico é para custódia e não deve ser enviado automaticamente ao GitHub.
+
+
+## Atualiza??o v4.0.2 ? REV04.2
+
+Consolida??o econ?mica, ambiental e documental do estudo.
+
+### Principais contribui??es
+
+- An?lise de sensibilidade econ?mica aos pre?os do GN e do CGOB.
+- Avalia??o de 360 combina??es de pre?os e cobertura.
+- Determina??o dos limiares de competitividade econ?mica da R2.
+- Aperfei?oamento dos gr?ficos de sensibilidade ambiental e econ?mica.
+- Incorpora??o do relat?rio t?cnico-cient?fico REV04.2.
+- Incorpora??o da apresenta??o PEN5038 revisada.
+
+### Resultados econ?micos de refer?ncia
+
+Considerando GN a R$ 3,00/Nm?, cobertura hipot?tica de 100%
+e configura??o R2 fixa:
+
+| Pr?mio CGOB (R$/Nm? equivalente) | F1 (R$/PKM) |
+|---:|---:|
+| 0,00 | 0,348631 |
+| 0,10 | 0,351234 |
+| 1,40 | 0,385067 |
+| 3,00 | 0,426708 |
+| 6,00 | 0,504786 |
+
+O pr?mio de R$ 1,40/Nm? equivalente constitui refer?ncia
+explorat?ria de atributo ambiental, n?o cota??o comercial de CGOB.
+
+Nesse caso, F1 permanece aproximadamente 21,38% inferior ao BAU.
+
+Limiar aproximado do pr?mio CGOB para equival?ncia econ?mica:
+
+- R0: R$ 3,99/Nm? equivalente.
+- BAU: R$ 5,42/Nm? equivalente.
+- R1: R$ 6,17/Nm? equivalente.
+
+### Arquivos complementares
+
+- `sensibilidade_economica_cgob_rev042.py`
+- `resultados/SENSIBILIDADE_ECONOMICA_REV042/`
+- `resultados/CGOB_REV041/`
+- `resultados/GRAFICOS_CONSOLIDADOS_REV041/`
+- `docs/relatorio_final/Relatorio_Tecnico_Cientifico_Final_REV042_Garagem450.docx`
+- `docs/apresentacao/PEN5038_Garagem450_REV042.pptx`
+
+### Ressalvas metodol?gicas
+
+A sensibilidade econ?mica mant?m fixos o dimensionamento dos
+ativos, a composi??o da frota e o despacho original da R2.
+
+F2, CAPEX, LCOE el?trico de tra??o e emiss?es f?sicas permanecem
+inalterados. F1, OPEX e VP total variam conforme os pre?os assumidos.
+
+A atribui??o ambiental hipot?tica do CGOB n?o substitui o
+invent?rio f?sico de emiss?es nem comprova redu??o efetiva
+de emiss?es ou neutralidade de carbono.
+
+Nenhuma nova otimiza??o NSGA-II ou MILP foi executada.

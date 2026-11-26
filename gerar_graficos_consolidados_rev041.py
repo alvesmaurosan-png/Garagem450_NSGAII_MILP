@@ -36,9 +36,68 @@ for name,title,col,unit,scale in [
 stack('07_Frota','Composição da frota',['n_bev','n_diesel','n_gas'],['BEV','Diesel','GAS-BUS'],'Ônibus')
 for pct in (False,True): stack('16_Matriz_percentual' if pct else '15_Matriz_energia','Suprimento elétrico anual',['grid_kwh','pv_kwh','chp_net_kwh'],['Rede','PV','CHP líquido'],'%' if pct else 'GWh/ano',1e6,pct)
 bar('24_CGOB_atribuicao','R2: indicador atribuído hipotético (não inventário físico)','CO2_fossil_t_ano','t CO₂/ano',df=e[e.config=='R2-CGOB'])
-plt.figure(figsize=(8,4.5)); plt.plot(s.cobertura_hipotetica_pct,s.CO2_fossil_atribuido_t_ano,'o-',label='R2 atribuição hipotética')
-for _,row in c[c.config!='R2'].iterrows(): plt.axhline(row.CO2_operacional_t_ano,ls='--',label=row.config+' físico')
-plt.legend(); save('25_CGOB_sensibilidade','Sensibilidade contábil (não redução física)','t CO₂/ano','Cobertura hipotética (%)')
+# 25 - Sensibilidade ambiental do CGOB
+plt.figure(figsize=(10, 6))
+ax = plt.gca()
+
+ax.plot(
+    s.cobertura_hipotetica_pct,
+    s.CO2_fossil_atribuido_t_ano,
+    color='#0072B2',
+    linestyle='-',
+    linewidth=2.8,
+    label='R2 - atribui\u00e7\u00e3o hipot\u00e9tica'
+)
+
+ax.axhline(
+    c.loc[c.config == 'R2', 'CO2_operacional_t_ano'].iloc[0],
+    color='#333333',
+    linestyle=(0, (8, 4)),
+    linewidth=2.2,
+    label='R2 - invent\u00e1rio f\u00edsico'
+)
+
+estilos = {
+    'BAU': {'color': '#E69F00', 'linestyle': '--'},
+    'R0':  {'color': '#009E73', 'linestyle': '-.'},
+    'R1':  {'color': '#CC79A7', 'linestyle': ':'}
+}
+
+for _, row in c[c.config != 'R2'].iterrows():
+    ax.axhline(
+        row.CO2_operacional_t_ano,
+        linewidth=2.4,
+        label=row.config,
+        **estilos[row.config]
+    )
+
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 32000)
+ax.set_xticks(range(0, 101, 20))
+ax.set_yticks(range(0, 30001, 5000))
+ax.tick_params(labelsize=11)
+ax.grid(True, alpha=0.20)
+ax.set_axisbelow(True)
+
+ax.legend(
+    loc='upper center',
+    bbox_to_anchor=(0.5, -0.20),
+    ncol=2,
+    fontsize=11,
+    frameon=False,
+    handlelength=3.5,
+    columnspacing=2.0,
+    labelspacing=0.8
+)
+
+plt.subplots_adjust(bottom=0.32)
+
+save(
+    '25_CGOB_sensibilidade',
+    'Sensibilidade cont\u00e1bil (n\u00e3o redu\u00e7\u00e3o f\u00edsica)',
+    'CO\u2082 f\u00f3ssil (t/ano)',
+    'Cobertura hipot\u00e9tica CGOB (%)'
+)
 plt.figure(figsize=(8,4.5)); plt.bar(l.referencia,l.cobertura_pct); plt.ylim(0,100); save('26_CGOB_limiares','Cobertura para equivalência numérica de indicadores','%','Referência')
 rev1=r/'CONSOLIDADO_FINAL_REV01_20261124_200032'; rev2=r/'CONSOLIDADO_FINAL_REV02_20261124_215315'; rev4=r/'NSGAII_FINAL_REV04_20261125_010610'
 fronts={k:read(folder/f'pareto_{k}.csv') for k,folder in [('R0',rev1),('R1',rev4),('R2',rev2)]}
